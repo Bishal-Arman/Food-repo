@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*First-section-style*/
+.flexible{
+    display: flex;
+}
+.menu{
+    width: 100%;
+    height: 10vh;
+    background-color:gray;
+    color: white;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.left{
+   width:15%;
+    text-align: center;
+    color:springgreen ;
+    
+}
+.right{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.menu a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight:bold;
+}
+/*second-section- style*/
+.half-width{
+    width: 50%;
+    padding-left:110px;
+    margin-top: 40px;
+    margin-left:50px ;
+}
+.half-width img{
+    width: 47%;
+    
+}
+.span-color{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    border-radius: 20px;
+    background-image:linear-gradient(orange, red);
+    padding: 8px;
+    color: aliceblue;
+}
+/*third-section-style*/
+.about-me{
+    width: 50%;
+    padding-left:110px;
+    margin-top:70px;
+    margin-left:50px ;
+}
+.about-me img{
+    width:30%;
+}
+.about{
+    background-image: url(Frame\ 57.jpg);
+    margin-bottom: 60px;
+}
+/*fourth-section-style*/
+.recipie-item {
+     text-align:center;
+     
+}
+/*fifth-section-style*/
+.box{
+    margin-top: 60px;
+    display: flex;  
+}
+.card{
+    
+    width:20%;
+   margin-left:6.6%;
+   margin-right:6.6%;
+   box-shadow: 10px 10px  40px 15px gray;
+   border-radius:25% 10%;
+}
+.card img{
+    width:100%;
+  
+}
+.card .text{
+    text-align: center;
+}
+/*six-section-style*/
+.popularity{
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-left:150px;
+    margin-right: 150px;
+    box-shadow: 10px 10px  10px 10px rgb(219, 173, 173);
+    border-radius: 20px
+   
+}
+.popularity div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*seven-section*/
+footer{
+    background-color: black;
+    margin-top:50px;
+}
+footer h1{
+   padding-top: 10px;
+    text-align: center;
+    word-spacing:10px;
+}
+.footer-left{
+    color: #FF5733;
+}
+.footer-right{
+    color: dimgray;
+} 
+footer p{
+    color: floralwhite;
+    text-align: center;
+    padding-bottom: 10px;
+}
